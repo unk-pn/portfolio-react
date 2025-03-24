@@ -1,6 +1,12 @@
 import './input.css';
 
-export const Input = ({ placeholder , name }) => {
+interface InputProps {
+    placeholder: string;
+    name: string;
+}
+
+export const Input = (props: InputProps) => {
+    const { placeholder, name} = props
     return (
         <input
         placeholder={placeholder}
@@ -11,3 +17,4 @@ export const Input = ({ placeholder , name }) => {
         />
     )
 }
+
