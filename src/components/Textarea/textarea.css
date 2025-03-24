@@ -17,7 +17,7 @@ min-height: 100px;
 height: 120px;
 max-height: 200px;
 resize: vertical;
-margin-bottom: 25px;
+/* margin-bottom: 25px; */
 }
 
 textarea.form-input::-webkit-resizer { display: none; }
